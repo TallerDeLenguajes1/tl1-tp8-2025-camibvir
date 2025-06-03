@@ -31,3 +31,15 @@ for (int j = 0; j < tareasPendientes.Count; j++)
     }
 }
 
+string? descripMostrar = Console.ReadLine();
+
+for (int k = 0; k < tareasPendientes.Count; k++)
+{
+    if (tareasPendientes[k].Descripcion == descripMostrar)
+    {
+        tareasPendientes[k].mostrarTarea();
+    }else
+    {
+        Console.WriteLine("No existe tarea con esa descripción");
+    }
+}

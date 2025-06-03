@@ -15,7 +15,12 @@ namespace listaToDo
 
         }
 
-
+        public void mostrarTarea()
+        {
+            Console.WriteLine($"ID de la tarea: {TareaID}");
+            Console.WriteLine($"Descripción de la tarea: {Descripcion}");
+            Console.WriteLine($"Duración de la tarea: {Duracion}");
+        }
 
         }
 
