@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\win10\\Documents\\tl1-tp8-2025-camibvir\\ToDo\\ToDo.csproj": {}
+    "C:\\Users\\win10\\Documents\\tl1-tp8-2025-camibvir\\CalculadoraHistorial\\CalculadoraHistorial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\win10\\Documents\\tl1-tp8-2025-camibvir\\ToDo\\ToDo.csproj": {
+    "C:\\Users\\win10\\Documents\\tl1-tp8-2025-camibvir\\CalculadoraHistorial\\CalculadoraHistorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\win10\\Documents\\tl1-tp8-2025-camibvir\\ToDo\\ToDo.csproj",
-        "projectName": "ToDo",
-        "projectPath": "C:\\Users\\win10\\Documents\\tl1-tp8-2025-camibvir\\ToDo\\ToDo.csproj",
+        "projectUniqueName": "C:\\Users\\win10\\Documents\\tl1-tp8-2025-camibvir\\CalculadoraHistorial\\CalculadoraHistorial.csproj",
+        "projectName": "CalculadoraHistorial",
+        "projectPath": "C:\\Users\\win10\\Documents\\tl1-tp8-2025-camibvir\\CalculadoraHistorial\\CalculadoraHistorial.csproj",
         "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\win10\\Documents\\tl1-tp8-2025-camibvir\\ToDo\\obj\\",
+        "outputPath": "C:\\Users\\win10\\Documents\\tl1-tp8-2025-camibvir\\CalculadoraHistorial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config"

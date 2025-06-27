@@ -19,18 +19,19 @@ for (int i = 0; i < numeroTareas; i++)
 Console.WriteLine("Ingrese el ID de la tarea realizada(desde 100)");
 string? realizado = Console.ReadLine();
 int idRealizado;
-int.TryParse(realizado, out idRealizado);
-
-for (int j = 0; j < tareasPendientes.Count; j++)
+if(int.TryParse(realizado, out idRealizado))
 {
-    if (tareasPendientes[j].TareaID == idRealizado)
+    for (int j = 0; j < tareasPendientes.Count; j++)
     {
-        tareasRealizadas.Add(tareasPendientes[j]);
-        tareasPendientes.RemoveAt(j);
-        break;
+        if (tareasPendientes[j].TareaID == idRealizado)
+        {
+            tareasRealizadas.Add(tareasPendientes[j]);
+            tareasPendientes.RemoveAt(j);
+            break;
+        }
     }
 }
-
+Console.WriteLine("Escriba la descripcion de la tarea pendiente que desea mostrar");
 string? descripMostrar = Console.ReadLine();
 
 for (int k = 0; k < tareasPendientes.Count; k++)
@@ -42,4 +43,16 @@ for (int k = 0; k < tareasPendientes.Count; k++)
     {
         Console.WriteLine("No existe tarea con esa descripción");
     }
+}
+
+Console.WriteLine("Tareas pendientes: ");
+for(int i = 0; i < tareasPendientes.Count; i++)
+{
+    tareasPendientes[i].mostrarTarea();
+}
+
+Console.WriteLine("Tareas realizadas: ");
+for(int l = 0; l < tareasRealizadas.Count; l++)
+{
+    tareasRealizadas[l].mostrarTarea();
 }
